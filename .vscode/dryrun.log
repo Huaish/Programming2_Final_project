@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/huaish/github/Programming2_Final_project'
+gcc -c skillFunc.c -o skillFunc.o
+gcc -c utilityFunc.c -o utilityFunc.o
+gcc -c vector.c -o vector.o
+gcc main.c skillFunc.o utilityFunc.o vector.o -o main -lm
+make: Leaving directory `/Users/huaish/github/Programming2_Final_project'
+ 
